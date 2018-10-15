@@ -1,5 +1,11 @@
 body {
     background-color: gray ;
+    margin-bottom: 3% ;
+    margin-top: 1% ;
+        
+}
+.centrer {
+    text-align: center ;
 }
 td 
 {
@@ -14,7 +20,7 @@ a:hover {
     color: orange ;
 }
 tr:nth-child(2n+1) {
-    background-color: tomato ;
+    background-color : royalblue ;
     }
 tr:hover td{
         background-color : 	#FF0000 ;
@@ -23,7 +29,9 @@ img:hover {
     transform: scale(10) ;
 }
 @media only screen and (max-width: 600px) {
-    body {
+body {
         background-color: #008000;
+        height:  100% ;
+
     }
 }
