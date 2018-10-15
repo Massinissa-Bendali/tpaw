@@ -4,22 +4,26 @@ body {
 td 
 {
     border: 1px solid black; 
-   
 }
 table {
     border-collapse: collapse ;
     background-color: white ;
     width: 100% ;
-    border : 1px solid black ;
-   
-     
 }
 a:hover {
     color: orange ;
 }
 tr:nth-child(2n+1) {
-    background-color: yellow ;
+    background-color: tomato ;
     }
-  tr :hover {
-        background-color : #FFCCCC ;
+tr:hover td{
+        background-color : 	#FF0000 ;
   }
+img:hover {
+    transform: scale(10) ;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #008000;
+    }
+}
