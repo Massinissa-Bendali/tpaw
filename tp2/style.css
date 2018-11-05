@@ -1,0 +1,43 @@
+form {
+font-weight : bold ;	
+text-align : justify ;
+opacity : 1 ;
+color : black ;
+text-shadow :1px 1px 1px blue;
+border-width : 3px;
+border-radius : 15px ;
+border-style : solid ;
+border-color : gray ;
+padding : 8px ;
+box-shadow : 5px 5px 5px green inset ; 
+padding : 6px ; 
+margin-right : 30% ; 
+}
+label
+{
+	display: block;
+	width: 160px;
+	float: left;
+}
+#Bouton {
+    text-align : center ; 
+}
+#error {
+background-color: pink ;
+padding: 5px ;
+border: 1px ;
+border-color: black ;
+min-height: 30px;
+width: 68% ;
+display: none;
+}
+#resultat {
+background-color : green ;
+padding: 5px ;
+font : white ;
+min-height: 30px;
+width: 68% ;
+display: none;
+
+}
+
