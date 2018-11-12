@@ -29,7 +29,7 @@ $(document).ready(function () {
 
             $('#myModal').modal("show");
             $('.modal-title').html("Bienvenue " + document.querySelector("#prenom").value);
-            $('.modal-body').html("Vous etes né le  " + document.querySelector("#date").value + "</br> et vous habitez à :" + '<img src="https://maps.googleapis.com/maps/api/staticmap?markers=' + document.querySelector("#adresse").value + '&zoom=10&size=400x300&key=AIzaSyAkmvI9DazzG9p77IShsz_Di7-5Qn7zkcg"/>');
+            $('.modal-body').html("Vous êtes nés le  " + document.querySelector("#date").value + " et vous habitez à :" + '<img src="https://maps.googleapis.com/maps/api/staticmap?markers=' + document.querySelector("#adresse").value + '&zoom=10&size=400x300&key=AIzaSyAkmvI9DazzG9p77IShsz_Di7-5Qn7zkcg"/>');
 
 
         }
