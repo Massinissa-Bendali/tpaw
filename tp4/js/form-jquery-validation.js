@@ -38,6 +38,10 @@ $(document).ready(function () {
         return valide;
 
     });
+    $("#gps").on("click",function () { 
+            
+        getLocation();
+       });
     $("#valider").on("click",function store(event) { 
         event.preventDefault();
 
