@@ -50,8 +50,7 @@
     <h1 style="color: #FF0000; text-align: center">Application météo</h1>
     <div class="container">
         <div id="weatherApp" >
-            <!-- ici votre code HTML utilisé par VUE -->
-        
+                    
         <!-- formulaire de saisie de ville -->
         <form v-on:submit="addCity">
             <div class="input-group">
@@ -63,7 +62,7 @@
             </div>
 
             <!-- affichage de nombre de caractères saisie -->
-            <small class="text-muted" style="color: #FF0000;">
+            <small class="text-muted" >
                 {{formCityName.length}} car.
             </small>
 
