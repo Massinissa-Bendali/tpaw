@@ -47,9 +47,9 @@
 </head>
 
 <body  >
-    <h1>TP5</h1>
+    <h1 style="color: #FF0000; text-align: center">Application météo</h1>
     <div class="container">
-        <div id="weatherApp">
+        <div id="weatherApp" >
             <!-- ici votre code HTML utilisé par VUE -->
         
         <!-- formulaire de saisie de ville -->
@@ -63,7 +63,7 @@
             </div>
 
             <!-- affichage de nombre de caractères saisie -->
-            <small class="text-muted">
+            <small class="text-muted" style="color: #FF0000;">
                 {{formCityName.length}} car.
             </small>
 
@@ -77,19 +77,19 @@
             {{messageForm}}
         </div>
         <!-- Listing des villes, boucle sur l'array : cityList -->
-        <h4>Liste des villes ({{cityList.length}})</h4>
-        <ul class="list-group">
+        <h4 style="color:#00FF00">Liste des villes ({{cityList.length}})</h4>
+        <ul class="list-group"  >
             <a v-for="city in cityList" v-on:click="meteo(city)" class="list-group-item d-flex justify-content-between align-items-center">
                 {{city.name}}
                 <button v-on:click="remove(city)" class="btn btn-secondary btn-sm" title="Supprimer de la liste">&times;</button>
             </a>
         </ul>
         <!-- meteo de la ville selectionnée -->
-        <div v-if="cityWeatherLoading"> Chargement de la météo...</div>
+        <div v-if="cityWeatherLoading" style="color:#00FF00"> Chargement de la météo...</div>
 
-        <div v-if="cityWeather">
+        <div v-if="cityWeather" >
 
-            <div class="card" style="width: 18rem;" v-if="cityWeather" style="text-align:center">
+            <div class="card" style="width: 48rem;" v-if="cityWeather" style="text-align:center">
                 <div class="card-header">
                     {{cityWeather.name}}
                 </div>
